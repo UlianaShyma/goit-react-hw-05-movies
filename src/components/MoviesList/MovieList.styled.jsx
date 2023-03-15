@@ -48,7 +48,7 @@ export const StyledLink = styled(NavLink)`
 `;
 
 export const Error = styled.p`
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
   margin-top: 25px;
   font-weight: bold;

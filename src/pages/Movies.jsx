@@ -51,7 +51,7 @@ const Movies = () => {
       <SearchBox onSubmit={getQuery} />
 
       {query && movies?.length === 0 && !isLoading && !error && (
-        <h3>No results</h3>
+        <Error>No results</Error>
       )}
 
       {movies && !isLoading && !error && movies.length > 0 && (

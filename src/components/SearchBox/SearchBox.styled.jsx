@@ -14,13 +14,14 @@ export const SearchForm = styled.form`
 export const SearchBoxInput = styled.input`
   display: inline-block;
   width: 100%;
+  height: 30px;
   font: inherit;
   font-size: 20px;
   margin-right: 2px;
   border: none;
   outline: none;
-  padding-left: 4px;
-  padding-right: 4px;
+  padding: 4px;
+
   border-bottom: 1px solid #ee185a;
 
   &::placeholder {
